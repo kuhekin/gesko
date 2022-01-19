@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 Dịch bởi Kuhekin, raw lấy từ [WoopRead](https://woopread.com/)
