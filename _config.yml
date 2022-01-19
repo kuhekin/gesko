@@ -3,7 +3,7 @@ title: Brynth's Relic
 greetings: Sup 👋
 description: >-
   trang lưu trữ truyện mà mình đã dịch
-lang: en-US
+lang: vn-VN
 timezone:  Asia/Ho_Chi_Minh
 repo: https://kuhekin.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
@@ -65,7 +65,8 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /:day/:month/:year/:slug
+               
   
 defaults:
   -
