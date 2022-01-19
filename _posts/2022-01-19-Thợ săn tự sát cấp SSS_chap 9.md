@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thợ săn tự sát cấp SSS [C9]
+title: Thợ săn tự sát cấp SSS [Chap 9]
 description: Chapter 9
 summary: Cùng tìm hiểu tiếp câu chuyện lần trước nào
 tags: tstscsss
