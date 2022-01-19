@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: Thợ săn tự sát cấp SSS 
-description: Danh sách cách chap đã dịch
 ---
 
 Dịch bởi Kuhekin, raw lấy từ [WoopRead](https://woopread.com/)
