@@ -1,0 +1,13 @@
+body {
+  font-size: 18px;
+}
+h1,
+h2 {
+  transition: font-size 200ms; /* animate font size changes */
+}
+h1 {
+  font-size: 2em; /* h1 element is 2x body font size */
+}
+h2 {
+  font-size: 1.5em; /* h1 element is 1.5x body font size */
+}
