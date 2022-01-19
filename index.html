@@ -31,7 +31,7 @@ layout: default
         </svg>
     </label>
 
-    <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
+    <input type="search" id="search-input" placeholder="tìm thông tin tại đây" aria-label="Search">
     <ul id="search-results"></ul>
 </div>
 
@@ -41,7 +41,7 @@ layout: default
         {% for post in site.posts %}
         <li>
 		<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b, %Y" }}</time>
         </li>
         {% endfor %}
     </ul>
