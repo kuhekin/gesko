@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Difference between font formats
-description: What is the difference between various font formats?
-summary: What is the difference between various font formats?
+title: Thợ săn tự sát cấp SSS [C7]
+description: Chapter 7
+summary: Cùng tìm hiểu tiếp câu chuyện lần trước nào
 tags: typography
-minute: 1
+minute: 15
 ---
 
 Tôi tìm mọi thông tin về Kiếm Thánh trên điện thoại.
