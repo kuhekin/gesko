@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Thợ săn tự sát cấp SSS
 ---
 
 Dịch bởi Kuhekin, raw lấy từ [WoopRead](https://woopread.com/)
