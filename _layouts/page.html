@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
 <section class="post">
   <div class="flex-row-between">
       <a href="{{ site.url }}{{ site.baseurl }}/">« Home</a>
@@ -17,27 +15,3 @@ layout: default
   <h2>{{ page.title }}</h2>
   {{ content }}
 </section>
-
-<p>Test chữ to chữ nhỏ hmmmmm</p>
-
-<button id="bigger">Bigger</button>
-<button id="smaller">Smaller</button>
-<button id="moreBigger">More Bigger</button>
-
-<script>
-var size = 18; // or any default number yo want
-$(document).ready(function() {
-  $("#bigger").click(function() {
-    $("p").css("font-size", size + 1 + "px");
-    size++;
-  });
-  $("#smaller").click(function() {
-    $("p").css("font-size", size - 1 + "px");
-    size--;
-  });
-  $("#moreBigger").click(function() {
-    $("p").css("font-size", size + 2 + "px");
-    size+=2;
-  });
-});
-</script>
