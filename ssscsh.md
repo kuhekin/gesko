@@ -1,5 +1,5 @@
 ---
-layout: xes
+layout: deafault
 title: Thợ săn tự sát cấp SSS 
 ---
 
