@@ -3,7 +3,7 @@ layout: post
 title: Thợ săn tự sát cấp SSS [Chap 9]
 description: Chapter 9
 summary: Cùng tìm hiểu tiếp câu chuyện lần trước nào
-tags: tstscsss
+tags: ssscsh
 minute: 
 ---
 _Giờ thì ngươi trả lão già lại cho ta được chưa?_
