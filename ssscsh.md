@@ -1,6 +1,5 @@
 ---
-layout: deafault
-title: Thợ săn tự sát cấp SSS 
+layout: default
 ---
 
 Dịch bởi Kuhekin, raw lấy từ [WoopRead](https://woopread.com/)
