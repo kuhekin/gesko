@@ -3,8 +3,8 @@ layout: post
 title: Thợ săn tự sát cấp SSS [C8]
 description: Chapter 8
 summary: Cùng tìm hiểu tiếp câu chuyện lần trước nào
-tags: typography
-minute: 1
+tags: tstscsss
+minute: 
 ---
 May mắn
 
