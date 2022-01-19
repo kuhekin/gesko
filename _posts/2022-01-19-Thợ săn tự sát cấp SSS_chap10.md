@@ -3,7 +3,7 @@ layout: post
 title: Thợ săn tự sát cấp SSS [Chap 10]
 description: Chapter 10
 summary: Cùng tìm hiểu tiếp câu chuyện lần trước nào
-tags: tstscsss
+tags: ssscsh
 minute: 
 ---
 Thứ khó chịu nhất khi bạn thức dậy buổi sáng là gì?
