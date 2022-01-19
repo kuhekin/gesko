@@ -11,30 +11,29 @@ layout: default
   </div>
 </section>
 
-<script scr="http://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function(e) {
-	var section = 'span,.change';
-	var originalSize = $(section).css('font-size');
-	$('.increase').click(function(){
-		var increaseSize = parseInt$(section).css('font-size');
-		$(section).css('font-size',increaseSize*1.2);
-	});
-	var section = 'span,.change';
-	var originalSize = $(section).css('font-size');
-	$('.increase').click(function(){
-		var increaseSize = parseInt$(section).css('font-size');
-		$(section).css('font-size',increaseSize*0.8);
-	});
-});
-</script>
-
-<div>Yep:
-	<a href="#" class="increase" title="Plus">+</a>
-	<a href="#" class="increase" title="Minus">+</a>
-</div>
-
 <section class="post">
   <h2>{{ page.title }}</h2>
   {{ content }}
 </section>
+
+<button id="bigger">Bigger</button>
+<button id="smaller">Smaller</button>
+<button id="moreBigger">More Bigger</button>
+
+<script>
+var size = 18; // or any default number yo want
+$(document).ready(function() {
+  $("#bigger").click(function() {
+    $("p").css("font-size", size + 1 + "px");
+    size++;
+  });
+  $("#smaller").click(function() {
+    $("p").css("font-size", size - 1 + "px");
+    size--;
+  });
+  $("#moreBigger").click(function() {
+    $("p").css("font-size", size + 2 + "px");
+    size+=2;
+  });
+});
+</script>
