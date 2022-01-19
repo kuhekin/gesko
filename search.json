@@ -52,15 +52,6 @@
       "tags"     : "coding, jekyll",
       "url"      : "/2018/11/12/page-specific-assets-in-jekyll",
       "date"     : "2018-11-12 00:00:00 +0100"
-    } ,
-  
-    {
-      "title"    : "Jekyll reading time without plugins",
-      "description" : "The reading time indicator for your website",
-      "category" : "",
-      "tags"     : "jekyll, coding",
-      "url"      : "/2018/09/20/jekyll-reading-time-without-plugins",
-      "date"     : "2018-09-20 00:00:00 +0200"
     } 
   
 ]
