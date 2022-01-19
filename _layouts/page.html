@@ -11,12 +11,27 @@ layout: default
   </div>
 </section>
 
-<script src='/assets/css/font-button.css'></script>
-<div id="main_area1">
-  <button id="button1" value="larger" type="button" onclick="changeFontSize(this)">Larger</button>
-</div>
-<div id="main_area2">
-  <button id="button2" vale="smaller" type="button" onclick="changeFontSize(this)">Smaller</button>
+<script scr="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(e) {
+	var section = 'span,.change';
+	var originalSize = $(section).css('font-size');
+	$('.increase').click(function(){
+		var increaseSize = parseInt$(section).css('font-size');
+		$(section).css('font-size',increaseSize*1.2);
+	});
+	var section = 'span,.change';
+	var originalSize = $(section).css('font-size');
+	$('.increase').click(function(){
+		var increaseSize = parseInt$(section).css('font-size');
+		$(section).css('font-size',increaseSize*0.8);
+	});
+});
+</script>
+
+<div>Yep:
+	<a href="#" class="increase" title="Plus">+</a>
+	<a href="#" class="increase" title="Minus">+</a>
 </div>
 
 <section class="post">
