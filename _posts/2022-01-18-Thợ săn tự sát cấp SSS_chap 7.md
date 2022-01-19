@@ -3,7 +3,7 @@ layout: post
 title: Thợ săn tự sát cấp SSS [Chap 7]
 description: Chapter 7
 summary: Cùng tìm hiểu tiếp câu chuyện lần trước nào
-tags: tstscsss
+tags: ssscsh
 minute: 
 ---
 
