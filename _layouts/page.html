@@ -11,7 +11,34 @@ layout: default
   </div>
 </section>
 
+<button id="count">0</button>
+
 <section class="post">
   <h2>{{ page.title }}</h2>
+  <p id="test">
   {{ content }}
+  </p> 
 </section>
+
+<script>
+window.addEventListener('load', () => {
+  const button = document.querySelector('#count');
+  const paragraph = document.querySelector('#test');
+  const startingFontSize = window.getComputedStyle(document.body, null)
+    .getPropertyValue('font-size')
+    .slice(0, 2) * 1;
+  let clicks = 0;
+
+  button.addEventListener('click', () => {
+    clicks++;
+
+    // this is a template literal 
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+    const fontSize = `${startingFontSize + clicks}px`;
+
+    button.innerHTML = clicks;  
+    button.style.fontSize = fontSize;
+    paragraph.style.fontSize = fontSize;
+  });
+});
+</script>
