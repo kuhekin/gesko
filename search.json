@@ -142,6 +142,15 @@
       "tags"     : "coding, jekyll",
       "url"      : "/2017/11/10/redirect-jekyll-urls",
       "date"     : "2017-11-10 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Quotes In Jekyll",
+      "description" : "This is how quotes look in jekyll",
+      "category" : "",
+      "tags"     : "quotes, jekyll",
+      "url"      : "/2017/02/05/quotes-test",
+      "date"     : "2017-02-05 00:00:00 +0100"
     } 
   
 ]
