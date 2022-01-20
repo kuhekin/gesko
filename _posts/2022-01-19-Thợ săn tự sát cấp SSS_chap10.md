@@ -12,7 +12,7 @@ Có phải là chuông điện thoại báo thức reo? Có phải là đầu t�
 
 _Dậy! Dậy mau lên!_
 
-"A, trời đất ơi, một lát n..."
+"A, trời đất ơi, một lát nữ..."
 
 _Nếu mà ngươi không dậy liền, ta sẽ hát bài mà ta thích ở quê nhà ta. Ngươi biết không ta một đời đã học âm nhạc? Nếu ta mà hát một bài, hơn ba mươi người sẽ rơi lệ!_
 
